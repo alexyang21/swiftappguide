@@ -14,3 +14,12 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+# Ignore application configuration
+/config/secrets.yml
+/config/database.yml
+
+# Ignore SSL certificate files
+server.crt
+server.key
+bundle.pem
