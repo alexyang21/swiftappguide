@@ -9,6 +9,7 @@ gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
 gem 'spring', group: :development
+gem 'pg'
 
 group :production do
   gem 'rails_12factor'
