@@ -17,9 +17,11 @@
 
 # Ignore application configuration
 /config/secrets.yml
+/config/application.yml
 /config/database.yml
 
 # Ignore SSL certificate files
 server.crt
 server.key
 bundle.pem
+

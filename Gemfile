@@ -8,8 +8,9 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 1.2'
-gem 'spring', group: :development
+gem 'spring', group: :development # Speeds up test running time
 gem 'pg'
+gem 'figaro'
 
 group :production do
   gem 'rails_12factor'
